@@ -9,19 +9,19 @@
 
 main:
   - title: "Portfolio"
-    url: /publications/
+    url: /portfolio/
 
   - title: "Education"
-    url: /talks/    
+    url: /degree/    
 
   - title: "Experience"
-    url: /teaching/    
+    url: /experience/    
     
   - title: "CV"
-    url: /portfolio/
+    url: /cv/
         
   - title: "Skills Summary"
-    url: /year-archive/
+    url: /skills/
     
   # - title: "CV"
   #   url: /cv-json/

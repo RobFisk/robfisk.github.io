@@ -231,7 +231,9 @@ collections:
   skills:
     output: true
     permalink: /:collection/:path/
-
+  volunteering:
+    output: false
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:

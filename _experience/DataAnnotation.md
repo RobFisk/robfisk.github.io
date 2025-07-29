@@ -1,10 +1,7 @@
 ---
 title: "AI Trainer, DataAnnotation"
 collection: experience
-type: "Talk"
-venue: "UC San Francisco, Department of Testing"
-date: 2012-03-01
-location: "Remote"
+excerpt: "(April 2024 - Present)\nPart Time, Remote\n Worked on DataAnnotation to get through uni and learn about the current LLMs."
 ---
 
 Part Time job yipee!

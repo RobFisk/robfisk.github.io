@@ -5,9 +5,9 @@ excerpt: "John Port Spencer Academy Sixth Form, Derbyshire
 collection: degree
 ---
 
-A* Mathematics
-A* Physics 
-A* Computer Science
-A* Further Mathematics
-
-Also achieved a 3rd + 2nd in the STEP 2/3 exams, used as an entry requirement for Cambridge University. 
+Grades :
+ * A* Mathematics
+ * A* Physics 
+ * A* Computer Science
+ * A* Further Mathematics
+ * *Also achieved a 3rd + 2nd in the STEP 2/3 exams, used as an entry requirement for Cambridge University. 

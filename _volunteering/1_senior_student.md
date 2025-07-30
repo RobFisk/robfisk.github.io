@@ -12,9 +12,9 @@ Throughout my time with the committee, good people management, communication and
 Under my leadership, resident approval ratings skyrocketed to the highest they've been in John Burnet since student union records began - 97% - and I really enjoyed delivering the best experience possible for the student community around me.
 
 Some key skills I improved upon were:
-    - Leadership
-    - Communication
-    - Time Managment
-    - Excel
+ * Leadership
+ * Communication
+ * Time Managment
+ * Excel
 
 

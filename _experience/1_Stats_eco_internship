@@ -11,7 +11,14 @@ Worked as a research intern alognside experts David Borchers and Cornelia Oedeko
 Specifically, the project I worked on used cutting-edge Acoustic Spatial Capture-Recapture (AScR) methods to generate animal density estimates using calls they make detected by microphones. My key involvement was in helping clear up and document existing R code and then investigating the effects of angle errors made by faulty microphones on density estimates, as this was an issue the researchers were running into.
 
 Some key skills I improved upon were:
+<<<<<<< HEAD
  * R
  * Statistical Modelling
  * Research skills
  * Comunicating findings from research
+=======
+    - R
+    - Statistical Modelling
+    - Research skills
+    - Comunicating findings from research
+>>>>>>> 346f10193f3ce7dbe7fa31e8ec8f99bab7f8e806

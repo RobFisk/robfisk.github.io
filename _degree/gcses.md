@@ -19,4 +19,4 @@ Grades:
 
 In England the GCSE grading system changed from F-A* to 1-9 in my year 11. I studied Psychology indpendently and took the exam during my year 10, so have one grade from the old system and 9 from the new. For those unfamiliar with the new grades, 
 <img src="/images/gcse_scale.jpg" height="500">
-From gov.uk
+<br>From gov.uk

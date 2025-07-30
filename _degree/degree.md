@@ -1,7 +1,27 @@
 ---
-title: "MMath Mathematics, university of St Andrews"
-excerpt: "Part of a summer project on using machine learning to identify plant species from drone images. Learned to use pix4dmapper and QGIS to process LIDAR images into an elevation model (DEM), as well as creating an educational resource to help taught Master's students at the University of Glasgow to do the same.<br/><img src='/images/stew_point_cloud.png', width=400>"
+title: "MMath Mathematics, University of St Andrews"
+excerpt: "Attended the University of St Andrews from 2021 to 2026, studying a wide range of Mathematics and Statistics topics. Currently on track for a first class honours Masters having been placed on the Dean's list 4/4 years thus far and achieved a medal for top Statistics grades in my program during my third year. For more details click the hyperlink :)"
 collection: degree
 ---
 
 hello, degree from st andrews!!
+
+Grade Average:
+Honours (3-5th year) modules - 
+All modules - 
+
+Modules:
+5th year:
+
+
+4th year:
+
+
+3rd year:
+
+
+2nd year:
+
+
+1st year:
+

@@ -271,7 +271,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
       comments: true
   # _experience
   - scope:
@@ -280,7 +279,14 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      comment: true
+  # _volunteering
+  - scope:
+      path: ""
+      type: volunteering
+    values:
+      layout: single
+      author_profile: true
       comment: true
   # _cv
   - scope:
@@ -289,7 +295,6 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
   # _skills
   - scope:
       path: ""

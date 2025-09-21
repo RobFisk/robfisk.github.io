@@ -4,4 +4,17 @@ excerpt: "Project for 'History and Future of data' university module. Processing
 collection: portfolio
 ---
 
-The year is 1911. Post Industrial Rev. ...
+The year 1911 represents a pivotal moment in British history, after the industrial revolution and before the first world war. The England of today is of course massievly different from that of 1911, with huge technological, political and economic strides being made. Today, as recognised by Danny Dorling among others, there are some clear divides between the North and South of the country but have these divides always existed? My exploratory data analysis used data from the University of Cambridge's digitised 'Integrated Census Microdata' (ICeM) to investigate trends in employment across the north and south of England. As women were starting to enter more into the workplace through this period in British history, there is also an investigation into where in the country and in which industries Women were finding work.
+
+Read the whole thing here...
+
+The ICeM dataset is absolutely huge and of course required a good deal of cleaning was needed...
+
+I produced visualisations like these...
+
+Conclusions...
+
+Skills:
+ *
+ *
+ *

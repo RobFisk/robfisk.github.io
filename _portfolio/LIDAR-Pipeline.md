@@ -4,4 +4,13 @@ excerpt: "Part of a summer project on using machine learning to identify plant s
 collection: portfolio
 ---
 
-Yapping about stewarton data. 
+As part of a research project on Monitoring Vegetation usign Machine Learning, I had to learn how to proccess UAV drone images to make... this was a new skill for me but by the end I was ab le to produce educational resources for future Master;s degree students to use...
+
+I had to work in QGIS, Pix4d, ...
+
+The DEM () produced looks like ...
+
+Skills:
+ *
+ *
+ *

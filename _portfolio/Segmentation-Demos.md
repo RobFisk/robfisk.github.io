@@ -4,4 +4,19 @@ excerpt: "Part of a summer project on using machine learning to identify plant s
 collection: portfolio
 ---
 
-SAM and UnSAM on stewarton data yay!
+For the second half of my summer project on Monitoring Vegetation using Machine Learning, I wanted to prepare images for classifiers...
+
+Initially, we'd hoped to ... but due to ... had to settle for ...
+
+The computer vision models used were ...
+
+Solving the challemnges I came across with ... required ...
+
+In the end, I was able to produce masks looking like this ... as well as a good tutorial for future ...
+
+My supervisors said they were really impressed with what i'd been able to deliver while only working part time on the project and with so little support, and they loved how I'd remained focused on setting up future PhD research into the area throughout my project and while presenting my findings. ...
+
+Skills:
+ * 
+ *
+ *

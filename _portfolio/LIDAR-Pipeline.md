@@ -10,7 +10,7 @@ I had to work in QGIS, Pix4d, ...
 
 The DEM () produced looks like ...
 
-Skills:
- *
- *
- *
+Skills Developed:
+ * QGIS
+ * Research Skills
+ * Presenting

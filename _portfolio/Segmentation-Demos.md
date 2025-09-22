@@ -16,7 +16,10 @@ In the end, I was able to produce masks looking like this ... as well as a good 
 
 My supervisors said they were really impressed with what i'd been able to deliver while only working part time on the project and with so little support, and they loved how I'd remained focused on setting up future PhD research into the area throughout my project and while presenting my findings. ...
 
+Humble brag got offered a PhD, whihc one day I might take up.
+
 Skills:
- * 
- *
- *
+ * Research Skills
+ * Computer Vision
+ * Perservearance
+ * Presenting Findings

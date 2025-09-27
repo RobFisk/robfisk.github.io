@@ -7,11 +7,13 @@ collection: degree
 Highlights:
 - Honours GPA of 17.4/20 (First Class level)
 - Deans' List 4/4 years (2021/22,22/23,23/24,24/25)
-- Medal, Statistics (MMath Third Level)
+- Medal, Statistics - MMath Third Level
 - Final year project: A Computer Interface for Missing Data Analysis (Title WIP)
 
 (main text block)
 (make sure to focus on skills in statistics)
+
+Alongside the hard work I put into my studies, I worked, took part in student protest, was involved in the mountaineering and volleyball clubs, lead student representation in one of the halls of residence, founded a grief support network and volunteered to raise donations for a local foodbank.
 
 If you're interested in the specifics of my study, here is the complete list of modules I've read during my time at St Andrews:
 - 5th year:

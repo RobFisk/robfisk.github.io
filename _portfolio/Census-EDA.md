@@ -8,9 +8,9 @@ The year 1911 represents a pivotal moment in British history, after the industri
 
 If you're interested in reading the whole whole essay, click [this link.](https://docs.google.com/document/d/1h6D6l84FYkil7fFmA_ZrvJi1nJrXDpI-4efFus1zTlE/edit?usp=sharing)
 
-The ICeM dataset is absolutely huge and of course required a good deal of cleaning was needed. Filtering the data to download censuses by counties at a time,
+The ICeM dataset is absolutely huge and of course required a good deal of cleaning was needed. Filtering the data to download censuses by counties at a time, and then cleaning incorrect datatypes (e.g. codes intended to be integers provided as strings) and mixed value data (e.g. the occupation code for 'not in employment' could be -1, 0, 99, 999 or 999999) took some time. After this was completed, I needed to create industrial classifications for 700+ 'occupation codes' for the industry prevelance analysis I wanted to do and as well as taking time to do manually it brough up interesting questions like 'Should you count foreign diplomats in local employment data?' or 'Are engineering apprentices part of the engineering or academic sector?'. The answer to those that I came to were 'yes' and 'engineering' if you're interested.
 
-I'm always a fan of picking the right visualisation for the project, and for a project with a geographic focus like this a map certainly worked best. Heatmaps allow readers to easily identify patterns and can demonstrate disparities geographically really well. 
+Once the cleaning was done a variety of statistical tests were conducted to see where there were and weren't statistically significant differences in employment between the North and South as well as Men and Women. This along with some useful visualisations helped me build the analysis the conclusions were based on. I'm always a fan of picking unique visualisations that can really fit a project, and for a geographic focus like this a heatmap certainly worked best. Heatmaps allow readers to easily identify patterns and can demonstrate disparities geographically really well. 
 
 <img src='/images/1911_eda.png' height='500'>
 

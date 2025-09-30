@@ -15,6 +15,6 @@ This allowed me to generate results like ...
 Overall ...
 
 Skills:
- *
- *
+ * Natural Language Processing
+ * Machine Learning Models
  *

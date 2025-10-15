@@ -1,6 +1,6 @@
 ---
 title: "MMath Mathematics, University of St Andrews"
-excerpt: "(2021-2026)<br>Studied mathematics at the University of St Andrews, with module content accross a range of mathematics and statistics. Currently on track for a first class honours Masters degree having been placed on the Deans' list 4 of 4 years thus far and achieved a medal for top Statistics grades in my program during my third year. For more details click the hyperlink :)"
+excerpt: "(2021-2026)<br>Studied mathematics at the University of St Andrews, with module content across a range of mathematics and statistics. Currently on track for a first class honours Masters degree having been placed on the Deans' list 4 of 4 years thus far and achieved a medal for top Statistics grades in my program during my third year. For more details click the hyperlink :)"
 collection: degree
 ---
 

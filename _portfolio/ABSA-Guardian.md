@@ -1,20 +1,33 @@
 ---
 title: "Analysing Guardian Coverage with ABSA"
-excerpt: "A personal project inspired by wanting to see what potential Aspect-Based Sentiment Analysis (ABSA) had for analysing News Coverage. The analysis I did looks at what trends have emerged in the past year in British politics, how the sentiment of Guardian coverage compares to public opinion and some strengths and weaknesses of ASBA <br/><img src='/images/1911_eda.png' height='300'>"
+excerpt: "A personal project inspired by wanting to see what potential Aspect-Based Sentiment Analysis (ABSA) had for analysing News Coverage. The analysis I did looks at what trends have emerged in the past year in British politics, how the sentiment of Guardian coverage compares to public opinion and some strengths and weaknesses of ASBA <br/><img src='/images/projects/guardianabsa/starmerpol.png' height='300'>"
 collection: portfolio
 ---
 
-Being interested in learning about more machine learning techniques and also UK politics gave me an idea to analyse how closely public opinion was mirrored by UK news sites. The Guardian is one of the largest news sites in the country and happens to have a free API for pulling data on anything they've published. I was interested to see how well ABSA models could work with news articles, which are often very dense and require context in ways traditional ABSA uses like product reviews might not. Also on a personal level I was interested to investigate how true assumptions people interested in UK politics might make (e.g. "Farage is good at grabbing headlines" or "The Guardian as a left-leaning paper will generally give labour positive coverage") actually were.
+Being interested in learning about more machine learning techniques and also UK politics gave me an idea to analyse how closely public opinion was mirrored by UK news sites. The Guardian is one of the largest news sites in the country and happens to have a free API for pulling data on anything they've published. I was interested to see how well ABSA models could work with news articles, which are often very dense and require context in ways traditional ABSA uses like product reviews might not. Also on a personal level I was interested to investigate how true assumptions people interested in UK politics might make (e.g. "Farage is good at grabbing headlines" or "The Guardian as a left-leaning paper will generally give labour positive coverage and the conservatives negative coverage") actually were.
 
-Getting the data was a simple process, involving ...
+I got the data involved using the guardian API to download the top 200 politics stories (ranked by 'relevance' in the API) for each month from the month before the 2024 general election to a year after it. These were stored in an SQL database (which might not have been needed for a project of this scale but I wanted a chance to learn more about SQL). Then, a second table was created for sentences that mentioned one of the top politicians I wanted to track coverage of. 
 
-Runnning ABSA ...
+These sentences along with the sentences before and after them are then passed into the DeBERTa v3 aspect-based sentiment analysis model which returns an expected sentiment about the target. After this, a final table is created with monthly summary statistics (mean, quartiles, count, etc.) about coverage of each politician at each time point. These would then be visualised in a few ways and I looked at where the strengths and weaknesses of the model were as well as seeing what we could infer about the Guardian's coverage.
 
-This allowed me to generate results like ...
+It's worth first mentioning that coverage of true left-wing politicians like the new Green Party leader Zack Polanski that the Guardian has been positive about has been slightly too limited to make them a part of our core analysis. Unsurprisingly, the party leaders relevant which grabbed most of the stories were the Prime Minister and Labour Party leader Kier Starmer and the de-facto opposition leader of hard-right Reform UK Nigel Farage - though the Conservative Party leader Kemi Badenoch also had enough data to work with. 
 
-Overall ...
+<img src='/images/projects/guardianabsa/counts.png' height='200'>
+
+By comparing the sentiment of coverage to polling from YouGov about these three political leaders, we can show the relationship between (an estimate of) sentiment of Guardian coverage to public opinion polling in each month. As seen below, this does demonstrate that Starmer tends to get the most positive coverage of the three and that the Guardian has reported below the polarity of the right-wing party leaders. However, it's important to remember that opinion 'polarity' simply indicates the percentages of people who approve/disapprove of each leader so for figures like Farage (who tends to be seen either massively positively by a fanbase who support his views on things like immigration, or massively negatively by groups like Stand Up to Racism UK) this 'polarity' might not capture the whole picture. Additionally, the coverage is hugely varied with greatly different upper and lower quartiles. This is just one of the flaws in this method of analysis.
+
+<img src='/images/projects/guardianabsa/coverage.png'>
+
+Asking a model to understand how a whole news site represents a person from snippets of articles will always be difficult, though there were some issues with the model specifically I'd like to discuss that came up when looking at some of the most strongly positive and negatively flagged sentences. P
+- Perhaps because of a lack of political understanding, sentences like this were could be flagged as strongly positive. "CapitalHQ has taken on the work without payment, and its services have been given to Farage free. However, Farage does not register CapitalHQ’s services on the MPs’ register of interests as a benefit in kind – nor the fact that CapitalHQ settled a $3,531.10 hotel bill for him at the Hilton Garden Inn Milwaukee during the Republican National Convention, which ran from 14 to 19 July" (October 2024). This is clearly meant to point out that Farage may have vested interests when it comes to the UK's relationship to the US and to expose potential corruption in not fully listing expenses. It seems likely that the model treats getting a free thing as good, so a specific model trained on political news could potentially improve on DeBERTa as a base.
+- In a more broad context, the model couldn't pick up well on sarcasm. Take the following sentence about Starmer as an example. "The west was dying on its feet because of the rise of neo-Marxist philosophies. Joe Biden, Rishi Sunak, Keir Starmer, and Emmanuel Macron were all part of a communist conspiracy. It would be news to them." (December 2024). It is clear to a read that author is mocking former prime minister Liz Truss' claims of a grand communist conspiracy yet this is flagged as havign a strongly negative opinion on Starmer. 
+- There were also issues sometimes with an incorrect subject, though this might partly be something I could improve on in my NLP techniques. An example was "A scattergun approach of “Labour’s job tax”, business confidence and low growth. To which every Starmer answer is exactly the same. You broke the economy." which describes Badenoch's performance at PMQs in a negative light but is flagged as a negative sentence about Starmer.
+
+Overall, while I think there isn't too much to read into in the findings without a more sophisticated model, it was still nice to show that the expected bias/preference in Guardian coverage did exist through ABSA and I've taken a lot of useful skills from the project. 
 
 Skills:
  * Natural Language Processing
+ * SQL
+ * Python
  * Machine Learning Models
- *
+ * Data Analysis

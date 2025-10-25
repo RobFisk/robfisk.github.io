@@ -1,6 +1,6 @@
 ---
 title: "Analysing Guardian Coverage with ABSA"
-excerpt: "A personal project inspired by wanting to see what potential Aspect-Based Sentiment Analysis (ABSA) had for analysing News Coverage. The analysis I did looks at what trends have emerged in the past year in British politics, how the sentiment of Guardian coverage compares to public opinion and some strengths and weaknesses of ASBA <br/><img src='/images/projects/guardianabsa/starmerpol.png' height='300'>"
+excerpt: "A personal project inspired by wanting to see what potential Aspect-Based Sentiment Analysis (ABSA) had for analysing news coverage. The analysis I did looks at what trends have emerged in the past year in British politics, how the sentiment of Guardian coverage compares to public opinion and some strengths and weaknesses of ASBA <br/><img src='/images/projects/guardianabsa/starmerpol.png' height='300'>"
 collection: portfolio
 ---
 

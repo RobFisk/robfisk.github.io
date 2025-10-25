@@ -5,7 +5,7 @@ excerpt: "John Port School, Derbyshire (+ Psychology studied independently)
 collection: degree
 ---
 
-Undertook my secondary education and GCSEs at John Port School.  
+Undertook my secondary education and GCSEs at John Port School in Derbyshire.  
 
 Grades:
  - 9 Mathematics

@@ -6,12 +6,15 @@ collection: degree
 
 Highlights:
 - Honours GPA of 17.4/20 (First Class level)
-- Deans' List 4/4 years (2021/22,22/23,23/24,24/25)
+- Deans' List 4/4 years (2021/22,22/23,23/24,24/25) (25/26 pending...)
 - Medal, Statistics - MMath Third Level
 - Final year project: A Computer Interface for Missing Data Analysis (Title WIP)
 
-(main text block)
-(make sure to focus on skills in statistics)
+I've had the great privelege of studying Mathematics in an integrated Masters' degree at the University of St Andrews, ranked as the top university in the UK by the Times and the Guardian during the period I was attending. It has been hard work but very rewarding learning from experts in their fields and exploring areas of mathematics and statistics I've found interesting through my degree. Scottish degrees allow undergraduates a good amount of choice, so I had the opportunity to study some physics, philosophy and economics during my first two years, and in my final three have been able to specialise into statistics and applied mathematics - I do find pure maths interesting too, but this is where my true passions lie. I've consistently achieved excellent grades and one of the things I'm mostly thankful for is the ways I've been able to improve the speed at which I can learn and implement new information and skills. The degree has left me with the useful soft skills of time management, perserverance, communication, flexibility and logical thinking as well as the mathematical and statistical toolkit I need for any area of the working world (and probably lots of tools that I won't need too unless you're interested in hiring me to prove a given function satisfies the Laplace Equation).
+
+Most relevant to statistics I ...
+
+Developing my academic skills further I've also ...
 
 Alongside the hard work I put into my studies, I worked, took part in student protest, was involved in the mountaineering and volleyball clubs, lead student representation in one of the halls of residence, founded a grief support network and volunteered to raise donations for a local foodbank.
 

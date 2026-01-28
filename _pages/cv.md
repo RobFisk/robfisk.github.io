@@ -14,7 +14,10 @@ Education
 * MMath Mathematics, 1st Class, University of St Andrews 2021-26
 * 4 A* A-Levels, John Port Spencer Academy
 * 7x9,1x8,1x7,1xA GCSEs, John Port School
+<<<<<<< Updated upstream
 
 Work experience
 ======
 
+=======
+>>>>>>> Stashed changes

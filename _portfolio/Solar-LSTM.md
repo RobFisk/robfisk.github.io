@@ -1,8 +1,9 @@
 ---
 title: "Predicting UK Energy Prices"
-excerpt: "A personal project inspired  <br/><img src='/images/projects/guardianabsa/starmerpol.png' height='300'>"
+excerpt: "A personal project inspired..."
 ---
 
+Still waiting to finihs writeup...
 
 
 Skills:
